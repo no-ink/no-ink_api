@@ -1,0 +1,8 @@
+%h2 Transaction Registration
+= form_for [@card, @transaction] do |f|
+  %h5 Company
+  = f.text_field :company
+  %h5 Sum
+  = f.number_field :sum
+  = f.submit "Add"
+  

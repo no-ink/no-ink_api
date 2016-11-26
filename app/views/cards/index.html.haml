@@ -1,0 +1,6 @@
+- @cards.each do |card|
+  %ul
+    %li= card.name
+    %li= card.number
+    %li= link_to "Make transactions", new_card_transaction_path(card)
+    
