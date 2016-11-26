@@ -1,0 +1,8 @@
+%h2 Card Registration
+= form_for @card do |f|
+  %h5 Name
+  = f.text_field :name
+  %h5 Number
+  = f.text_field :number
+  = f.submit "Add"
+  
