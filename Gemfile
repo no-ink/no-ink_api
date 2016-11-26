@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'erb2haml'
 gem 'haml-rails'
+gem 'responders', '~> 2.0'
 
 group :development, :test do
   gem 'pry-rails'
