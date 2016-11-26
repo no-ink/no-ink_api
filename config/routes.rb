@@ -4,7 +4,9 @@ Rails.application.routes.draw do
   end
 
   namespace :api, constraints: {format: 'json'} do
-    resources :cards, only: :index
+    resources :cards, only: :index do
+      resources :transactions
+    end
   end
 end
 
