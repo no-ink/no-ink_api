@@ -1,4 +1,4 @@
-class Api::CardsController < ApplicationController
+class Api::CardsController < Api::ApiController
   respond_to :json
   def index
     @cards = Card.all

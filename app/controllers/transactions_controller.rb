@@ -16,7 +16,7 @@ class TransactionsController < ApplicationController
 
   private
   def transaction_params
-    params.require(:transaction).permit(:company, :sum)
+    params.require(:transaction).permit(:company, :sum, :receipt)
   end
 
   def set_card

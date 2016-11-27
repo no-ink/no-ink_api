@@ -11,6 +11,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'erb2haml'
 gem 'haml-rails'
 gem 'responders', '~> 2.0'
+gem 'rack-cors', require: 'rack/cors'
+gem 'fog'
+gem 'carrierwave'
+gem 'config'
 
 group :development, :test do
   gem 'pry-rails'
